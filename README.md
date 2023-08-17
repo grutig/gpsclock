@@ -9,5 +9,6 @@ Since HamPack is intended to be used in places where the Internet is not availab
 to get sync from a GPS receiver. However, GPS can get time to acquire a steady signal, so it is important to have a way to
 simply know the 'quality' of time.
 
-GpsClock interacts with gpsd (that handles the GPS position data) and chrony (that gets the time from PPS dat) and shows that
-'quality', along with the position in Maidenhead grid locator (QRA) notation, that is the one we ham radio operator use.
+GpsClock interacts with gpsd (that handles GPS position data) and chrony (that gets the time from PPS data) and shows that
+'quality', along with the position in Maidenhead grid locator (QRA) notation, that is the one we ham radio operator use to
+identify our location.
